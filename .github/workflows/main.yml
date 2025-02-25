@@ -1,4 +1,7 @@
-name: Run Tests
+name: Run test script
+run: python ./test_script.py
+working-directory: /home/runner/work/distance_classification/distance_classification
+
 
 on: [push]
 
